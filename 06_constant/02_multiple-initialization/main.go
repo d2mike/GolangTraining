@@ -4,7 +4,7 @@ import "fmt"
 
 // Initialize multiple constant variables
 const (
-	Pi	 = 3.14
+	Pi       = 3.14
 	Language = "Go"
 )
 

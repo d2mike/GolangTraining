@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	i := 0
 	for {
 		i++ //post or incrementor
-		if i % 2 == 0 {
+		if i%2 == 0 {
 			continue
 		}
 		fmt.Println(i)

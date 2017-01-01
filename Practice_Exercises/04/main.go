@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	var smallnumba int
 	var largenumba int
 	fmt.Print("Choose a small number: ")

@@ -4,8 +4,8 @@ import (
 	"fmt"
 )
 
-func main()  {
-	a:= 43
+func main() {
+	a := 43
 
 	fmt.Println(a)
 	fmt.Println(&a)
@@ -14,6 +14,7 @@ func main()  {
 
 	fmt.Println(b)
 }
-	// the above code makes b a pointer to the memory address where an int is stored
-	//b is of type "int pointer"
-	// *int -- the * us part of the type -- b is of type *int
+
+// the above code makes b a pointer to the memory address where an int is stored
+//b is of type "int pointer"
+// *int -- the * us part of the type -- b is of type *int

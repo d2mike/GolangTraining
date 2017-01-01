@@ -7,7 +7,7 @@ import (
 
 const p string = "death & taxes"
 
-func main()  {
+func main() {
 
 	const q string = 42
 

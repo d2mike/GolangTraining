@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	x := 13 % 3
 	fmt.Println(x)
 	if x == 1 {
@@ -11,8 +11,8 @@ func main(){
 		fmt.Println("Even")
 	}
 
-	for i := 1;  i < 20; i++ {
-		if i % 2 == 1 {
+	for i := 1; i < 20; i++ {
+		if i%2 == 1 {
 			fmt.Println("Odd")
 		} else {
 			fmt.Println("Even")
